@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="ff3a3b4d9e29f1bfcc28354778683c0915c0dfbb" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="49c0a1f0f1ad2a9449e3b529d3841245cb8aca70" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="2c15fe4fc50c45880dd36cc63a8fca797b1dced0" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="6863de54f30885e237061e1e2ab12f6760691c20" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="f8304d3d4325175987432ed4474ee24ff3f0f9c4" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="6abc9789d77125c427888a3b1f4b5a01aa8e9599" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="073e3bdee0c7ddd122e02265f535bb6650f8bd3b" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="b23175447fb2f766436f3d5ee97a31e4abf60746" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="9dc889179b57f0a11fc8b44810c1fb82e5923ed2" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="451b62e0dae99b736096900c9929fa6f192d8759" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="d975a205d92c44ccae591d22f71b50553806399e" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="2ca8e140428caa6dda0a826be507ddecbb62e18b" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="24ebfbcba0ae7e3227db17eefb79cd006c670430" upstream="release/banana_qca9561_es"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="e2ef1b9d7c8b69305967d798d0a5a76d3c87c82d"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="fbb6122a04537f3ef28f57937df8abf04e8cd8ed" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="7fef8ec6f0fcddd921510eab3cb5e14ab4c2e5b4" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/system/feeds/printing" path="qsdk/qca/feeds/printing" revision="9a3a91b478e266b7ad81ccd4b6593dcf193c8f22" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="0abfc650a0fc71799dd498dfa945ea496d2cf215" upstream="release/banana_qca9561_es"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="b6e7aaaf3dca903deb335b90e8f4f9d85db8ad68" upstream="release/banana_qca9561_es"/>
+</manifest>
