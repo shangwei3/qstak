@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="coconut"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="d323d0c6335535293c9dd7538aaabd382080cbb4" upstream="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="6d2ea4a28542e1baeaca3b1e41c018ee1c081ec7" upstream="coconut_g8e69ee9"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="46e5d43a525edc01b168bf6ca6d2ac887a7dc769" upstream="banana_w14"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="0dea64e57b6c579ee217237d6d587234a499ecc7" upstream="banana_w14"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="ddf3acdf3daf02c4c8b2b9b776c909e4c6ab81ab" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="2fc57e5e669042d408e0564f4ec3375776e07ecd" upstream="coconut"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="6575d689de1a624bcc3aada4a6318314be9eac57" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="14c50067dc6aed27bc5e53e2ebab015849a7845e" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="554a5f092192f37d74b077b07966bd18c49ffce8" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="97d840a7b401407b90c2ce2ceaf9be5e4572f122" upstream="coconut"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="7565aa4403d6bd52ceede144d6cef6c1eb3308b3" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="5030cd6f4f2873881e84aaa99972a47bd70e0337" upstream="banana_w14"/>
+</manifest>
