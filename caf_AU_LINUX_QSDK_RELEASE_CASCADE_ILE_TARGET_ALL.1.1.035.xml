@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/cascade_ile"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="82e99ffaf060d5d88f68a27ecd2afacf057326c8" upstream="banana"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="4b4a5f2825421697edc15d936740b38144875d0a" upstream="aa/banana"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="882260d3327e78be136b243aa417c43f124044c5" upstream="aa/banana"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="b5b8f50e334f6215a2a03fd7e19e2b6426028c93" upstream="aa/banana"/>
+</manifest>
