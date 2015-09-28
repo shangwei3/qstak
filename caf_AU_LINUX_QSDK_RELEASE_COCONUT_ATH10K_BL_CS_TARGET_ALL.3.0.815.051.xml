@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="4a830744f7e67fe759853447b232fa959b2c4bf1" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="3e7f904fabd8014c282880d74ecc219ae13422e1" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="a0500c7989462756808f867a5c67c7e0472f10a5" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="01304baccd83c30a25bf2ed9c31c0b150507d2e8" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="267d90de32384eb023284776def4debf35b1fcbe" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="e54e2a7b424b590183e6891bd7c223aba7fd6163" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="123e228d3b4aea2c21daf79066bb7caa319efeba" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="eb3cdb7fe592016c9817a5d39a67f6058be3e524" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="c0bda3a9955cb53fc18c75773f3a9eb1a98e387f" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="ced6009fc3aa7b70e60f410d381dd34dc24967e5" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="4a7e178bdb38ccce42c1781b5b11582ea538490f" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="fd3b82779cec418964e18437f305339bcb76481c" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="8e21b7614dc588a603cbda3510c88ae98ed30b76" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="cf0c99d5059fea7738b7bd8c1d6bbf452da3f2f8" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="d836ada6c1c748f9a21c6944070b851ac33069bf" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="a59cebdc05aa09378fba309134d9f1fa019f0a48" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="f8d4c2de8fa187ffbe5c84d5e90f6248930c1689" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="555ad404042b483e3eaa8b6f00a9522435c2dfea" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="e82b3875204003acb8bdf10d17c1971d136198df" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="1b662d076b754a74139ad7060b277a03b01d4975" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="1885c170b5e6b4d07acdd87061efd152a845bc82" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="ba18fe9fb147c0ca6cdd9f31a6f5310a6ed2bb36" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="aa7ba0ba949721d8cd5274dd7bf8c928ea3e6522" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="f5bdd90cb0ebc53cdf2d40df0df69531f5cf7732" upstream="release/coconut_ath10k_bl_cs"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="319b93f46dbdef542d5f6833d609ff6317d69dd0" upstream="release/coconut_ath10k_bl_cs"/>
+</manifest>
