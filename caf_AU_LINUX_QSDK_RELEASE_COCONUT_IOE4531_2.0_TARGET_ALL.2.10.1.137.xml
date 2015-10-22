@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="c179c740b8774bfd6315d2954be4ea595971ff1d" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="49cbffc198f01ad718d30c6621416ecd202cb2ec" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="b2f73513e97b765bf8a0136d4a748333f53383ba" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="c61fe53a1fa6c24c9a94f322d80a594d2c6b96b5" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="4f397f4db60a8adbc44e519356298b55ef1aec92" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="ba9705066180530391c1c934b4fb41e541fcaefc" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="3dcb945b467f8f6b3c81338e63c917f768deb11e" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="b217e047fba5a080873376e6262e4379b2a7981b" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="c9bf118a139ca33ebc349c41e51823b3afe470bb" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="7ad032fe2723130e09a1d3cc19778f2349b3f4ea" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="628d8fb83baafc85b1d64241cbcd160e1bb188ee" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="025957813fd69f99d078ad7438268db00f37f6e1" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="f09702a9c3e73b7bd04dafd2ac443d7d2d85f2ce" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="06ac3306248716615c82969615a103fc1b4cb57f" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="14c50067dc6aed27bc5e53e2ebab015849a7845e" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="e82b3875204003acb8bdf10d17c1971d136198df" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="62f407240e168da89f7d939e543cd5918afefe63" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="bcf7491974e0ae8f67a22b97e41dc70ac446f786" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="fbfdef173de6a802758633f35349f7f44c45be12" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4.2" path="qsdk/qca/feeds/wlan_10_4_2" revision="4064e61f479069f78269f995b3df2dcde38ffe77" upstream="release/coconut_ioe4531_2.0"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="963579b6b9cc8f51e5ed9138a2980a1d35d041f4" upstream="release/coconut_ioe4531_2.0"/>
+</manifest>
