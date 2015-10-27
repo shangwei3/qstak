@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="d46e142e60f920fe13c1154e1081d0aa1e63cb84" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="4fd5913d23ebf3979928bd0af66ab795aae29c22" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="a29ee96e7d2b5bde7951042f9c4b6e8c74630e58" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="41c83aeccdbd31249f86e058e78a9bae76131663" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="fec7b115181c7b8e34293a92f93d9e6ebc14ebf3" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="346d49ca047904e906e6f9bb0e3718b5b93cf212" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="3371afdbd1291c90b66b6411c7d294b4f4b50ca1" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="145eee31bfdf18096b5ce3bffd2a72f2f1577757" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="a88b7ca223f2144a4753f345cdb8c8baa99c7203" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="16b47ed5b04215f6d12b8983d42d4c5c097626ab" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="0adb3e62553e9a34e658ba2ab53a80873539bd96" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="1a40c67a4161f93e8005eaf10dc38e880f7d7e4c" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="41e6080c7cffaf9df4182c8f7e2748c923848cc2" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="08b8e4467cd3ae385af92b014ddeb857e6f3f118" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="cce6d0e977a969ff464f53705d4701ab32606dcf" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="5d5a69682f774f30a242c2617a829b5f8d7666ad" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="389a5b9d1b799179678b76f923e99a14a6389b61" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="70ecd741978127a5c04ec5fb2dafa7bd25d36b81" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="6881251698ac4c1fb3275afb297fb5849ab341fd" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="6ac65324ada220a5cff6659e8c82213d0d7e39a5" upstream="release/dakota_dk03_es"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="f8d4c2de8fa187ffbe5c84d5e90f6248930c1689" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="cdeea16992374fb45c5c9561fa99eb9a31958783" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="e82b3875204003acb8bdf10d17c1971d136198df" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="1b4328e0062d3065dc0016148769491aea4f651d" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="1885c170b5e6b4d07acdd87061efd152a845bc82" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="95083d13f797bdc7ab2218004b8d68a2e2ff16fc" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="1e3b0a3643b52ba07234ca3ee561c38e3038f656" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="eb6f62f7803cccae5ddc23addfb9ec467345e7a8" upstream="release/dakota_dk03_es"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="f2ef0c3833bab5a2d803785dcf079bbcb7aab96a" upstream="release/dakota_dk03_es"/>
+</manifest>
