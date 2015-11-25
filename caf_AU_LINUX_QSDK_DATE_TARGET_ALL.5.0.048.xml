@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="date"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="3733b7ba62063be761def7ea2489bf47b46e4d39" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="a37998e2b26c5270f06b07d7cc54b4fcdf78f762" upstream="master"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="e4c021dd8f0c75c8f7b6811446da92ff3906f65e" upstream="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="cdd568d53802d9cb96c1fdbb1d4a1a2bfdbd14d4" upstream="date"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="cce6d0e977a969ff464f53705d4701ab32606dcf" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="419d2bce99cc2048d14fabc9d8af5fc6618f7f85" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="b2611e7cd65bb02a50f9fc0a4ea6fe1c5193d32c" upstream="date"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="5fdb2c561dc11e6e4bc80ea78020c16a93e9d769" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="ce4ee38f4691d57bb795c3b6cbfc3e8d0873c2e4" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="9f3881f1f35b11b4587ad6b7cca5136cad43c12a" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="3e0ce8a5b3708ef4e3e1505bbf9ed48c40d8f5c0" upstream="coconut"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="ad4c7dd084e9d21583b8528f15c78becc03c9ef0" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="c5d56788dc82a8686a018fcaa37ec1499e537165" upstream="banana_w14"/>
+</manifest>
