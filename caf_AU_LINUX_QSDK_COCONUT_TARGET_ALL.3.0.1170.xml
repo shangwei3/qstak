@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="coconut"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="369e0c20a54e81db8fd9ab1f31df0c119403f9a4" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="fbcc8de2229e66921b9e46e4ba8751e8f193c3d1" upstream="1.1"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="afd9723e80d9ce32861768646a80c40b3b659d38" upstream="master"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="45c961d5e5307915349c96feaaa5e15bfb4e9a91" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="e1cd6715a8e5f63af34c1d5b19f41df64231e808" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="79c0eb7597a675634e6998a70e1d3ca7c712cb25" upstream="coconut_20140924"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="402cb37bc1e72ee430a451ba876f9b913156b267" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="b463c14ee4468ede0a485eaf21c56e30b78600f2" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="8bf05a1baed2b70ea3a1f672f91f7c0722a50001" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="f4583f6972d043390aa2036f4f42fbafcb1b3534" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="dad3074f67350113d8affb4f43ff4ebae2baf91c" upstream="banana_n2h"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="b4864b5636ec120c2d268341af000e100c7295bd" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="1a40c67a4161f93e8005eaf10dc38e880f7d7e4c" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="b6243961721dae3e1a425b88b4b711339cd2200c" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="7c605640c8eb32900fffeae668264c1fefcb82fa" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="cce6d0e977a969ff464f53705d4701ab32606dcf" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="48e8751704be09419276ab6c3cf9ac2db8cc1b20" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="43da098a7d182d93755e103e87dd1f88c729be12" upstream="banana"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="master"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="7ba3c9594a8fc96a68add8d1d86c3bd38fcf26d7" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="06effd81274dbc6983e1ba042d53b3fd472a1a91" upstream="coconut"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="5fdb2c561dc11e6e4bc80ea78020c16a93e9d769" upstream="master"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="f8d4c2de8fa187ffbe5c84d5e90f6248930c1689" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="fd5fdef0e78840b594dd628c9e4eb7ac3cd40db1" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="e82b3875204003acb8bdf10d17c1971d136198df" upstream="coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="fd3a9716671cdaccfe1259e2013e64f424bd89f4" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="1885c170b5e6b4d07acdd87061efd152a845bc82" upstream="banana"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="f347003dca252660fe87be5917f9bab823d8506f" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="36d31e0dbe0662c9e3395eb53272f753ff15e6c1" upstream="coconut"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="140bc00d724e36b6f4a808673357fc144b17a1e8" upstream="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="524c7a0a27ed6940203cec4265d3004d3dd0db8f" upstream="master"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="c5d56788dc82a8686a018fcaa37ec1499e537165" upstream="banana_w14"/>
+</manifest>
