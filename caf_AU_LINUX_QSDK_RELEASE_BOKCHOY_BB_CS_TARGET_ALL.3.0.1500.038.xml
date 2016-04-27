@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="528551389b5979010764aba410a240344e1f8458" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="d087f2437c33a8b8e6d86b477a83c1fe04851df0" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="99e0db9d987c91023f09474194560a15c6f5ca81" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="a89e150e11fea557fb0bd5822c10f5f57d9af7b7" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="19bcc4f7005c8649ad4d28109a13cfb0d57b3225" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="86e799f759fe9bf4ffdd9c745a0e3b4491d20b0d" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="b06939e69a04390815d83c18134812e22180941a" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="f8e7f1394ce734d40ed83e17710b8e3fcd236642" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="3deb249f31273fdca1e20ee964df904148e925a9" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="7da9f1516cdc0f0ef4218001ce3a9d93aa393066" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="5b1ee516d1de6a755b0ec5b0d8b8a5f518468e86" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="6c2dc6cec734ffcfdf23732bdb1fd03bdb05577c" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="66ccc4a2d409ebff9c01f4d70f1f007d6db68b8a" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f9016dc16db497c587bb74142eb32a479d9caab9" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="8bde7d96b7f2f2fb7d195cab4f2e5fdf3a93b922" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="a8c98a5dace12c5068001bbafa2d90d860d0445d" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="461d0c1ffd86f93b12ff26928102ec02d47c4468" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="4f6efddfe5ee6b3d9e849991c5327f6af00e934a" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="e70da41f02a128d217cefc0016d89e2fdc1e6abd" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="3665c99b38b6b55a35ecf51e013e1e4ec3bb650b" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="82a41be8ae6b639d9f6ffe877a47ef8e9b816680" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="5fdb2c561dc11e6e4bc80ea78020c16a93e9d769" upstream="release/bokchoy_aa_cs"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="63dae99da52dec6d2554d4ec9b6e136788d6dc5f" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="26dc2ba4a7e2437f5978d89af678bd1589d9819f" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="d3635a7b77ee44e9e698d6e441511f898fe2c23b" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="64fecbe400e2727f6426384087f81ec5254e69c7" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="d96a03514dd3a348c0aac5d8ffa5701eeae0da00" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="e762bf0da71e47587b39a6b52458cdc94411a18f" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="08ec5074481b6b091f70eecfaadf366f0b1772b3" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="ba90958950953e853a1f4e21f5e0ea0d45011663" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="29ea8f04eeb715c225315259b9240644842de3aa" upstream="release/bokchoy_bb_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="785f1b47998ea519b3b299668ee84abf3a6530de" upstream="release/bokchoy_aa_cs"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="0a1b80b2298beb93b279a05864174d696a922ab2" upstream="release/bokchoy_bb_cs"/>
+</manifest>
