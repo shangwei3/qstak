@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="92347a779e6d14aba102a85f1904c1ddfb8f5d8d" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="a1faa0e098021b1359d91836a428815b6e255b33" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="5b1ee516d1de6a755b0ec5b0d8b8a5f518468e86" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="a8e37cc66e701ed9681632854baf9680dd821969" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="c6bbc0c25b18062318927d24d1637e81f346e4ac" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f9016dc16db497c587bb74142eb32a479d9caab9" upstream="release/remora_c1"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="caae934b9709c1b92bc9a300ca2bbdf02eb0b993" upstream="release/remora_c1"/>
+</manifest>
