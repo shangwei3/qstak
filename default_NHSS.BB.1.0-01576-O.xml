@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="coconut"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="1.1"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="master"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="coconut_20140924"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="banana_n2h"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="banana"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="master"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="master"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="master"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="master"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="banana"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="bb/coconut"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="master"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="banana_w14"/>
+</manifest>
