@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="528551389b5979010764aba410a240344e1f8458" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="37773957555c69dda3c29a2adb1cca2b681d1751" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="99e0db9d987c91023f09474194560a15c6f5ca81" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="ae601878e8c3731d7dd32bd45e69529282966a05" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="c280b06f34aafe7c34f6753940fc26b9efe4a9ad" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="c751062abea264a9cf84d0c2c0e01e51633457d8" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux-3.14" revision="9dac05f39939460fd11eb5d51be7bbe029070644" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="f8e7f1394ce734d40ed83e17710b8e3fcd236642" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="c1c35160a89ea269ff7773df01a2be416b41fa63" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="075b711881f26eded3d85f7e80093b9bf1c55a13" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="96b997da1d4d991a35aee495050b16353671970b" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="1b49b03a24435670a226f55925cd12f9bc7ccdf4" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="c6bbc0c25b18062318927d24d1637e81f346e4ac" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f9016dc16db497c587bb74142eb32a479d9caab9" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="a25f45d8293ae187b50ed9bb740703cef40fbd04" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="e939310ce919f17e6cfc8cc5f53018e6e868966b" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="1e049e5e85db44dcfce0fc6d90b5f9fd9c0338e4" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="c6ca9ebcd969393bf0cc60b3a40413d042882286" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="803f09209152e9c3c4a19d4d2f59f2cb7bf3c93f" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="64ddc1f6b7563c26c24aa7f2e570e299e7a5bfbd" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="3665c99b38b6b55a35ecf51e013e1e4ec3bb650b" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="65be79dd75598fa9606ce31e7d1585ebbcc400b7" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="5651184631f598d39722641d004be3406c34c092" upstream="release/collard_cc_es"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="46372a98f41e970040739f491ab60a9f2e2202df" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="87e8a4dad0bef62d4636b5711ec30339250c0374" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="922ebf289fcb9e0026d91ef4eceba0151b558fff" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="9aa9375960ca70b031ff83ef067c23097bfaa297" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="8e2903073c1197ec1b51a6c996bc07e1acf08fd1" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="dac44d39f81c319800640f3a984944e924d53422" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="08ec5074481b6b091f70eecfaadf366f0b1772b3" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="02dd9cc280a8da6ad94b0e2e664f7802b7f2262b" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="3d3807dbf4eb3165b31c699229ed99322bca326b" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="eb0189a9709f191ac87c67924bcc0b4145a157ab" upstream="release/collard_cc_es"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="0a1b80b2298beb93b279a05864174d696a922ab2" upstream="release/collard_cc_es"/>
+</manifest>
