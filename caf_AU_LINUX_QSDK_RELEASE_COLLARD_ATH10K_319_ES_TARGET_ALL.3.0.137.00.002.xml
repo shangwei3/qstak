@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="git://codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="528551389b5979010764aba410a240344e1f8458" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="4c34aca11fd080512ad38095a4e86d8febc37650" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="fc05d9faa81eb02d5ff42f9d9c6fb8ba3ce5bea6" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="2addd8f6d87378b3572ec9cb4a943325a72773fb" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="5e463779436ca858743ff65a3acfd504c5794773" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="727601b840f30b9e0870b2ce5dce1676991b3c57" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux-3.14" revision="5e0c96aa9dca088a7edb3ad1432144fdeb86d150" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="f8e7f1394ce734d40ed83e17710b8e3fcd236642" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="6220b563a23c22dd532d2913ea7eb2975f6c4b26" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="61fe760b3b2339276597c3cea1180937231c5249" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="2d61b2c52ead0e6d4e24ca5a9c144a26b953e14b" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="32b6c4276b714e3245e026e3e0f98175847e44b1" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="c6bbc0c25b18062318927d24d1637e81f346e4ac" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f9016dc16db497c587bb74142eb32a479d9caab9" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="93d6fe23fc3966dba307473fa41e51e182d7199e" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="90d1004c8856baa0cb568f5319fb5fdb186d14b3" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="1e049e5e85db44dcfce0fc6d90b5f9fd9c0338e4" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="31ebdc605eb39add3b9f5f1a792cb59f5c1ff22d" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="d599eae78727209950cefecc376254ccbfd9c754" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="64ddc1f6b7563c26c24aa7f2e570e299e7a5bfbd" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="3665c99b38b6b55a35ecf51e013e1e4ec3bb650b" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="ab6138d8fbfd2d68a7261890031091c494ff725a" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="c20a4571b2f9b985099976078f25d8335c7f55d0" upstream="release/collard_ath10k_319_es"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="46f538330dbb489dca78c6a4c47fcca42f3835f4" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="371a07d55674b4e78317175b61bf2211a86cd103" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="4855efe6114fb95983a0a883ae2dfff783a1af51" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="551584f03e63e0520f4073668c81e47c2b25c235" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="ab3f1545b579ba19661fa8794caf96581de95514" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="dac44d39f81c319800640f3a984944e924d53422" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="7646b7fad2594d38510e0e3ab9e217ec50797448" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="08ec5074481b6b091f70eecfaadf366f0b1772b3" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="15114ee491c80529ba673050e9392f5a46bb5433" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="2ce987c55bac13e87a4a32a7e1005437ee2b0bdc" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="bb751bbe4652f578ab4d553569db27050fab4d6e" upstream="release/collard_ath10k_319_es"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="6e925b0f1ca3719eb6ec51173eb36ffe04ff2ee3" upstream="release/collard_ath10k_319_es"/>
+</manifest>
