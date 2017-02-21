@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/endive"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="d4657811a97c9ba89254c40c2f7676ff8023f29c" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/boot/lk-af" path="qsdk/qca/src/lk-af" revision="27281e13876bf39e4b2a49416ce559165df9788c" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="c7a2de1ad94587309eb71a2c33b935747282c3c3" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="36c341f8b9998f2de3846849d533782ffa3d2266" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="d4702dfe26349689a63591f251857431a9b269f1" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="420986e274233c1d66cf72376583b7a592fbe56e" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="95e6f0409ea454ead4805d22c4d77e42463fa89a" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="9b4d1b3f436e01764c240dabdb267104e3d30756" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux-3.14" revision="516c156e336799368efa4241b8e3cf3c005ced8d" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="960ae3156d425fab8453e30a312d728365875109" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="92045947741459d47d4e5870c2a19ef979ffa98c" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="f7a27bef7b02cb1542767d3b8f3bbfe9a7a8d49e" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="3f55f93bcf3980a568cfa04ce02494ba67e656e8" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="606ec5d2a5c96722237bc3795ad9fa0a2f323116" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="1a5a6b3bc06d780ec439452a821ba9d17ce1d0f5" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f9e76fb2965492207c1412a31d8822397aa202f7" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qsdk/qca/src/qca-edma" revision="2a876c53d5e43ae30f8f6cb86b37a4eff9f69128" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="6ee959ca8cb99a2f587754585f1e301022e9533a" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="1957185f99a57a481de9bbaa2811a04524f13a05" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="4974cc3ec7ab210baf7dd902e1be4bd1c0fe44d9" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="cfae242853f0b410f0fc47eb3585e5d5a981779a" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="79d06682697890998c2a2a46ddf7dc1f7d33ba28" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="fd1eb67cc6384c17342d6820004b6c64dfcc1b89" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="25169dab50e9265d5d7e4a7dc6726c6afd08a88a" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="0681b7aff83d7600e261604a796f02d38d975939" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="3a1b3c588d980b587aab8da039ef992e3e304502" upstream="release/endive"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/ath10k-fw-package" path="qsdk/qca/feeds/ath10k-firmware" revision="2caa4dd5514a36b7b564d44cf620cdcf42aeee98" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="c9d9415480855d623748d82a038b078e403e16da" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="28f7b3dc19935030069af8c5c208fee9ff8090f1" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="8f7877fc07712c4f4acbc3a904f51bb592874606" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="9487aa2770c8c5f4682bc751a9c3f06b2ff1aa96" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="ee24a77901f876b8bd4c12c392503056031af0a1" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="8b1844ed6c5c2f6c1689b0d7ab0f59c8203d2593" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="27f3f9f9d6894c647a6611f1fe6c2258d146dd26" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="9ee78cf3d57273036c545c44b6de821167a4f35f" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="48b98f67cbe72c503df90cb7a3970cf31bd63f23" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="0d0beaa00ef680524477b405b9a76d65f4af5630" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi" path="qsdk/qca/feeds/wlan_10_4" revision="d1707610b4c70e0454da2256cc34641bafd4c644" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="2913b9ae93d1baa3a1047bb607b6fe3fa7a46394" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="release/endive"/>
+  <project name="quic/qsdk/oss/wlan-host-cmn" path="qsdk/qca/src/qca-wifi-10.4/cmn_dev" revision="70b7f1e042d953ff061bfe32a77ab334d64cc6e6" upstream="release/endive"/>
+</manifest>
