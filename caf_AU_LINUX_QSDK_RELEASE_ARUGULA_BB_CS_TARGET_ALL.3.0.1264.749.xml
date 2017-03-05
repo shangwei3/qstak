@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="git://codeaurora.org/quic/qsdk/" name="caf-qsdk"/>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="ed55698339931204def6f6316f6a19b43de030c4" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="ed0c56861c55906f2afa667a5daab54d8d92ce55" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/boot/uboot-1.0" path="qsdk/qca/src/uboot-1.0" revision="eb731f9153e3d79e7192c896f4834255491ac32a" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/firmware/ath10k-firmware" path="qsdk/qca/src/ath10k-firmware" revision="ddbb8117503373e68bf492930efff7ffe4d756d2" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="ca5dcbb4b25d78e27f5bd8df19c5e2e1075b87c4" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="8f991cc2b5539b7769f47df95187a0603c4b7f28" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux" revision="16b855bcf42895f82aebcb15939ae9e23513feec" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="4183e71cfaaed5a8554291099a79465a1e42ef90" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="b463c14ee4468ede0a485eaf21c56e30b78600f2" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="bf31c19f335ef2be84e2907246f6790fe993417c" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="f4583f6972d043390aa2036f4f42fbafcb1b3534" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="48ca5de03667083962c85f51071e90078a8dc60b" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="7a482414517f937c7865b0e30ff76fd20104425f" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="1a40c67a4161f93e8005eaf10dc38e880f7d7e4c" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="9f951dc245732310298698d0d2d71dfb06d6ecce" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="b05814c8f0868681e80dd242c142749be678e9b0" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="ae9bd46b1c9c97c06e4d2b877f148c97d43e01ca" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="dff5af3891ff70ea3f8a2eb563abb2f6e4fe214f" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="0fde5bfb735d2bdc16eecd6b6394d0ee9d38bdcf" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="a7d616f69206a18d54f7f5a29d768edd2eaa4962" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="abce020e67a9eff58349df5ca9738ef760511ea7" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="5fdb2c561dc11e6e4bc80ea78020c16a93e9d769" upstream="release/arugula_aa_cs"/>
+  <project name="oss/system/feeds/alljoyn" path="qsdk/qca/feeds/alljoyn" remote="caf-qsdk" revision="9fe1af4efdfd16690f09835ca5cb6329a96d8e16"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="f8d4c2de8fa187ffbe5c84d5e90f6248930c1689" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="fd5fdef0e78840b594dd628c9e4eb7ac3cd40db1" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="5beb3229e8882805bb0a7756893558baec577f23" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/oldpackages" revision="eb5d1c0fe51ecfe01c297321a9aebbfd71311880" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="1885c170b5e6b4d07acdd87061efd152a845bc82" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="f347003dca252660fe87be5917f9bab823d8506f" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="b22ebdaae68545b39c40287608af5c183c416095" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="e1835f9260458446c3feee9dc4ef14b915901a04" upstream="release/arugula_bb_cs"/>
+  <project name="quic/qsdk/oss/system/openwrt/feeds/qca-wifi-10.4" path="qsdk/qca/feeds/wlan_10_4" revision="cd09b0a14f4a66b6777db92ca57f6ef65dcbd12b" upstream="release/arugula_aa_cs"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="f92b6d618bfecda28fa650748ee32062605dbd13" upstream="release/arugula_bb_cs"/>
+</manifest>
