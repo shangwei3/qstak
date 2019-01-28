@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="b21c7ac895a72306d2efb42e2ac792f01155104a" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="3c506005d7b0901112ba74f282c5e3308aac44f5" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="d5dd72fbe6bf451711e1c8b7257aeb6a03150cbc" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="0d68d537fcd6929b19b98dd337b7562d0251ac35" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="409032fa4b6f7876f77fc4c5008d08803a360d6c" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="f8f55b98c4ffb3fd70efd10dd16941ea9c8ca7a0" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="e6c53d7f63608e0224c47d7caba8ee491a99794e" upstream="NSS.RE.2.0.c4"/>
+  <project name="quic/qsdk/oss/nss/ubi32-nssmconf" path="ubi32-nssmconf" revision="92e4c5edb08ad5661ed31276001b996188c00917" upstream="NSS.RE.2.0.c4"/>
+</manifest>
