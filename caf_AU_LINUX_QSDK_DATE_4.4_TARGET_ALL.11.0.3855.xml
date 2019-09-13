@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="date_4.4"/>
+  <project dest-branch="refs/heads/audio-platform-intf.lnx.1.0" name="quic/qsdk/meta-qti-agm" path="qsdk/qca/feeds/packages/audio-opensource/meta-qti-agm" revision="5e477541e6913ce84e347a6fb3c9d28034b73dbb" upstream="refs/heads/audio-platform-intf.lnx.1.0"/>
+  <project dest-branch="refs/heads/audio-kernel-4.4.lnx.1.0" name="quic/qsdk/meta-qti-audio-kernel" path="qsdk/qca/feeds/packages/audio-kernel/meta-qti-audio-kernel" revision="4d325dc192a3146c9aee001da7d4cef7d473a09a" upstream="refs/heads/audio-kernel-4.4.lnx.1.0"/>
+  <project dest-branch="refs/heads/audio-platform-intf.lnx.1.0" name="quic/qsdk/meta-qti-qal" path="qsdk/qca/feeds/packages/audio-opensource/meta-qti-qal" revision="685c03a99c408ce95947db8846f99d284f9524bb" upstream="refs/heads/audio-platform-intf.lnx.1.0"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="d4657811a97c9ba89254c40c2f7676ff8023f29c" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/lk-af" path="qsdk/qca/src/lk-af" revision="9a4f7ecf1a4562ef351bccec811971bc5aab401c" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="32c58570b0a01154cd0ad5f40495f5f017a77fd7" upstream="1.1"/>
+  <project name="quic/qsdk/oss/boot/u-boot-2016" path="qsdk/qca/src/u-boot-2016" revision="57117bb9394555281600c4872c10b10a87f6ecd9" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="71d5a826a67cd8f95dd6545d55586dba5fa56d50" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux-4.4" revision="11f3f30686f850b249513c12cf2452ee98aa44b0" upstream="eggplant"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="fd6b54d38a7328edd4fd5bfa7507de955d7c8615" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="da64a46c3916157555f155e21d8743e6c0fcc6c6" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="cb71b578c53dac7bf4d1647f75cca635329107a4" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="4811266bb75351e60e98e3d9ef7990831997c5d4" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-dp" path="qsdk/qca/src/qca-nss-dp" revision="ca6704b45d2ec4284e4310a6b9e5d533cf0b4305" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="0fbf87d0f72a46bf0b931363dd3563a373aa012d" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="f9e130b8b9817ed4f238790fa1c9213dbdeb10ff" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="dd1cae620c2c90c33506cd92e0c2e1ca56ff64c6" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qsdk/qca/src/qca-edma" revision="16e165226f490f0f405e8b90043b65e497581d39" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="f1273f5f468bcdae2c67d93d1fd6f0c028378d3e" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="7b86428009d4f752314a659321fcc7538f8d4642" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-psdk" path="qsdk/qca/src/qca-psdk" revision="8b98b8153324cd4e3c162be0dd4fa689509f6f39" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="709b93474e60aaf4d884d3d16c1435d8b5f0f90b" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="a86d0486f67a72fb3a0ad7761584e4ec1d862ef8" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="c7dd8173b178affc9d8da22f51610243be994e1c" upstream="nss"/>
+  <project name="quic/qsdk/oss/nss/ubi32-nssmconf" path="tools/ubi32-nssmconf" revision="8f1446150dbfaa687a6a1dd8bbdc87d2a61a82d0" upstream="master"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="master"/>
+  <project name="quic/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="7fb2fec51234147e88c9717a6fd2d5e0f9f9b7fa" upstream="nss"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="5f33fdc9e089c699f2e07ad3ba0fe5ca9f9f51bd" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="08530090c6f786d8313f6330bc6e35d736ec5c02" upstream="subtarget"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="528c5e60ea9f0f887386737942d340d970f6f6de" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/data-oss" path="qsdk/qca/feeds/lte-data-oss" revision="1593b7f242864d8265e5c93ab61681aed6897a33" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="491d217ad7c1b6c48697887bd152c467427e5a5e" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="2100d3730aa6c3a8daaad530beb22522d466407c" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="6af53b2593d0df30f18f02cf4798b6560d6fedc9" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="5a0223f9e34153c7d8e24b82ef385fc53f33d5ed" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/platform/bootloader" path="qsdk/qca/feeds/bootloader" revision="c12bb308591c82e9abf02a805fbfffdb8798dd03" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/platform/utils" path="qsdk/qca/feeds/platform_utils" revision="f82af82b973b01462b49360d5a6120c9539c60d0" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="b959b0d45c66ae004a5bfc1687980093fa5b8cc3" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="c2b72fc8391ebd0d671d2b91ab92e8196d3b1460" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="9f7b87179c346ba820eda4f91a5c27cf94ee7b85" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="9ee78cf3d57273036c545c44b6de821167a4f35f" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wigig-utils" path="qsdk/qca/feeds/wigig-utils-oss" revision="bb098c6914d168affa8713cf8e8b36c35d3ef018" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="6bc339b95462197e79f3607fb3594202514dfd02" upstream="win_ap.1.0"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="ceb7c3a73fae4b6503c377600c4cadc43b4bd73a" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/tools" path="qsdk/qca/src/qca-ramparser" revision="abe3f809593a76cb31c5f329f6a75d52d6442e90" upstream="ramparser_nhss"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="f551927158ab92fa419efc9da5e92b2ef11d825e" upstream="subtarget"/>
+  <project name="quic/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="master"/>
+  <project name="quic/qsdk/oss/wigig-utils" path="qsdk/qca/src/wigig-utils-oss" revision="0566ab7e95e66a31229bcdbbee13a6468fd32b0d" upstream="master"/>
+  <project name="quic/qsdk/oss/wireshark" path="qsdk/wireshark-2.4.2-11ax-patches" revision="cdf5c0caa4761e96b0fdb0dfaf5aadaf0755a88e" upstream="wireshark-caf"/>
+  <project name="quic/qsdk/oss/wireshark-github" path="qsdk/wireshark-github" revision="75f437707b30a83e298745571d9efbfce882808a" upstream="caf/wireshark-github/qcom/wireshark-2.4.2"/>
+  <project dest-branch="refs/heads/audio-kernel-4.4.lnx.1.0" name="quic/qsdk/platform/vendor/opensource/audio-kernel" path="qsdk/qca/src/vendor/qcom/opensource/audio-kernel" revision="4571246e2dabeef82640e26bd2f0006c51cc2d66" upstream="refs/heads/audio-kernel-4.4.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-config" path="qsdk/qca/src/adk/adk-config" revision="acd997eb0ddf8333ead77546c93065b043dc6349" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-data" path="qsdk/qca/src/adk/adk-data" revision="aabaa6646f9b80589d45b5acd7d868d79f82a57f" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-ipc" path="qsdk/qca/src/adk/adk-ipc" revision="43a04aae58612373b61ad8ad98259f0576e9a814" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-managers" path="qsdk/qca/src/adk/adk-managers" revision="b6c66eaf2f81245eadf86c27696e5fd9d56cd361" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-audio-apps.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-mediaplayer-lib" path="qsdk/qca/src/adk/adk-mediaplayer-lib" revision="9bc693a432d6edff8ec8cb16a56d25262d7f7bab" upstream="refs/heads/adk-audio-apps.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-message-lib" path="qsdk/qca/src/adk/adk-message-lib" revision="e228c9372198ebfe6e8e9eb8c609b3bf20120cef" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-system.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-utils" path="qsdk/qca/src/adk/adk-utils" revision="9b5b50c44635eed4c1d2579f7903abbd3c81a682" upstream="refs/heads/adk-system.lnx.1.0"/>
+  <project dest-branch="refs/heads/adk-voice-ui-framework.lnx.1.0" name="quic/le/platform/vendor/qcom-opensource/adk-voice-ui-framework" path="qsdk/qca/src/adk/adk-voice-ui-framework" revision="05bcde0ec44d47d7ed678a2f498a130e4eec1fc6" upstream="refs/heads/adk-voice-ui-framework.lnx.1.0"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/data-kernel" path="qsdk/qca/src/data-kernel" revision="d5dcc3a6755d1487944da4bff7ed904664f48622" upstream="data-kernel.1.1_qsdk"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/dataservices" path="qsdk/qca/src/data-oss" revision="e53d27250a4b503389bdb67d4a8917781eabcbba" upstream="NHSS.QSDK.9.0.2"/>
+  <project dest-branch="wlan-api.lnx.1.0" name="quic/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qsdk/qca/src/qca-wifi/cmn_dev/fw_hdr" revision="5a9f7fbcdce2111558d78cefdd7906426915fffc" upstream="wlan-api.lnx.1.0"/>
+  <project dest-branch="wlan-cmn.driver.lnx.2.0" name="quic/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qsdk/qca/src/qca-wifi/cmn_dev" revision="10b86d636a387b87078d4babc42ccda38f049a54" upstream="wlan-cmn.driver.lnx.2.0"/>
+  <project dest-branch="refs/heads/audio-platform-intf.lnx.1.0" name="quic/qsdk/platform/vendor/qcom/opensource/agm" path="qsdk/qca/src/vendor/qcom/opensource/audio-graph-mgr" revision="6503ceee87b06afe8baa5e164ddc46f0e928818f" upstream="refs/heads/audio-platform-intf.lnx.1.0"/>
+  <project dest-branch="refs/heads/audio-platform-utils.lnx.1.0" name="quic/qsdk/platform/vendor/qcom/opensource/audio-le-platform-utils" path="qsdk/qca/src/vendor/qcom/opensource/audio-le-platform-utils" revision="486622c47dc0988919c53e9ef6696a6be38d597c" upstream="refs/heads/audio-platform-utils.lnx.1.0"/>
+  <project dest-branch="refs/heads/audio-platform-utils.lnx.1.0" name="quic/qsdk/platform/vendor/qcom/opensource/audio-le-platform-utils-mk" path="qsdk/qca/feeds/packages/audio-opensource/audio-le-platform-utils-mk" revision="07858df4c8c390aa81921d8a8a5da3ee9135fa01" upstream="refs/heads/audio-platform-utils.lnx.1.0"/>
+  <project dest-branch="refs/heads/audio-platform-intf.lnx.1.0" name="quic/qsdk/platform/vendor/qcom/opensource/qal" path="qsdk/qca/src/vendor/qcom/opensource/qal" revision="d2ac60d951f74614615ad071754d905cc3780ace" upstream="refs/heads/audio-platform-intf.lnx.1.0"/>
+  <project dest-branch="refs/heads/pulseaudio.lnx.1.0" name="quic/le/pulseaudio" path="qsdk/qca/src/adk/adk-pulseaudio" revision="13bfff34b090c22c548c04b0cb6b05af3fc8880a" upstream="refs/heads/pulseaudio.lnx.1.0"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0" name="quic/qsdk/wifi/qca-wifi-oss" path="qsdk/qca/src/qca-wifi/component_dev" revision="cf9c795749d534530edfbf0562d992bc25beeb6a" upstream="refs/heads/win_wlan_host.1.0"/>
+</manifest>
