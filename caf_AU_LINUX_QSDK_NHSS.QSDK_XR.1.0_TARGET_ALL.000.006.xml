@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="NHSS.QSDK_XR.1.0"/>
+  <project name="quic/qsdk/oss/wigig-utils" path="qsdk/qca/src/wigig-utils-oss" revision="a652a18fdbc681d367d5d5811dbbe828ba2059ed" upstream="NHSS.QSDK_XR.1.0"/>
+</manifest>
