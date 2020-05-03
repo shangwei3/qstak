@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://source.codeaurora.org/" name="caf" review="codeaurora.org"/>
+  <default remote="caf" revision="date_4.4"/>
+  <project name="quic/qsdk/atf-qsdk/arm-trusted-firmware" path="qsdk/qca/src/atf/arm-trusted-firmware" revision="a2a9d952855556809dd7ecad6e91ea7f7a5fa256" upstream="master_atf"/>
+  <project name="quic/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="d4657811a97c9ba89254c40c2f7676ff8023f29c" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/lk-af" path="qsdk/qca/src/lk-af" revision="f4e5c8386958b743ae1ccb6e8d59d8fcbd79c52b" upstream="master"/>
+  <project name="quic/qsdk/oss/boot/u-boot-1.1.4" path="qsdk/qca/src/qca-legacy-uboot" revision="32c58570b0a01154cd0ad5f40495f5f017a77fd7" upstream="1.1"/>
+  <project name="quic/qsdk/oss/boot/u-boot-2016" path="qsdk/qca/src/u-boot-2016" revision="1663d8c23bdbfba9d284dc7d9545954da91cec7b" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="644028ce526318db20f5552d77038d8a779e95cb" upstream="master"/>
+  <project name="quic/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="master"/>
+  <project name="quic/qsdk/oss/kernel/linux-msm" path="qsdk/qca/src/linux-4.4" revision="6d2de8897cfff368300bb524f91604633525a8a2" upstream="eggplant"/>
+  <project name="quic/qsdk/oss/lklm/gobinet" path="qsdk/qca/src/gobinet" revision="fd6b54d38a7328edd4fd5bfa7507de955d7c8615" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="1cac964ec6641668921c168e6fabebd97ad78416" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="40189801120eb7f35948491823b8382be509a5a8" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="a2210fe6e6b53166093968151e30e4ce443b67fc" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-dp" path="qsdk/qca/src/qca-nss-dp" revision="90c58e15c9aac7900ce755ff857cbd5da5827214" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="c20974d94b40549ea0abfae3dc6abc2dc846f6df" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="a550810922de3be4bbc1234d9945d5f5eeed2ea9" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="dd1cae620c2c90c33506cd92e0c2e1ca56ff64c6" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-edma" path="qsdk/qca/src/qca-edma" revision="f23231361c443b7abc93d94c41c9f02a3d940790" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="9cff7cb5078880e1d2133af2b07acb51223605c8" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="5b51ae2f1eca61c6f68e40a05333da5a362ff327" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-ovsmgr" path="qsdk/qca/src/qca-ovsmgr" revision="5d4ec457355b7ce4cc2d8fd1679fc3b1aa3f1388" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-psdk" path="qsdk/qca/src/qca-psdk" revision="6071993d480fa2e2eeee00f5aa58514fd15c7f74" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="12f459e35770bdaec2b911863059ca882d93f309" upstream="nss"/>
+  <project name="quic/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="a532921085411288e3f91b691ae76040728ff158" upstream="master"/>
+  <project name="quic/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/shortcut-fe" revision="c7dd8173b178affc9d8da22f51610243be994e1c" upstream="nss"/>
+  <project name="quic/qsdk/oss/nss/ubi32-nssmconf" path="tools/ubi32-nssmconf" revision="8f1446150dbfaa687a6a1dd8bbdc87d2a61a82d0" upstream="master"/>
+  <project name="quic/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="master"/>
+  <project name="quic/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="7fb2fec51234147e88c9717a6fd2d5e0f9f9b7fa" upstream="nss"/>
+  <project name="quic/qsdk/oss/qca/src/btconfig" path="qsdk/qca/src/btconfig" revision="65e8e74223f8e98067c71649a789afbc03b671df" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qca955x" path="qsdk/qca/configs/qca955x.ln" revision="5f33fdc9e089c699f2e07ad3ba0fe5ca9f9f51bd" upstream="master"/>
+  <project name="quic/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="4f3f3257af2bf72152589cd9475bf92f11ed2ec2" upstream="subtarget"/>
+  <project name="quic/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="903af84df4b5f5e07544d5dd0a4d74517f4ea167" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/data-oss" path="qsdk/qca/feeds/lte-data-oss" revision="45bbe18feab83c0810699ba17ff2aa8472a10dcb" upstream="NHSS.QSDK.9.0.2"/>
+  <project name="quic/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="491d217ad7c1b6c48697887bd152c467427e5a5e" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="f6aca8d2682b455d31c6b77e97ac282d9c4c5b61" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="d14a2752b4d4fb2ee1d6430df5b43b8dfd44302e" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="e197583a740ee81b88064dc2af152a7dc15b01c3" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/platform/bootloader" path="qsdk/qca/feeds/bootloader" revision="4b976b6f53dac2eb6696c7840fd51e7eb3415480" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/platform/utils" path="qsdk/qca/feeds/platform_utils" revision="a97ddd4a0c110a98bf9da2103555911f3d0f043b" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="ac545544418794eccf5feb94af7bae5ba9352bf6" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/feeds/shortcut-fe" path="qsdk/qca/feeds/shortcut-fe" revision="c2b72fc8391ebd0d671d2b91ab92e8196d3b1460" upstream="nss"/>
+  <project name="quic/qsdk/oss/system/feeds/sigma-dut" path="qsdk/qca/feeds/sigma-dut-open" revision="a4a7bdfd2ec5b6fe6be7cc2afc2d4107b9ff08fb" upstream="win_ap.1.0.1"/>
+  <project name="quic/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="762fbede563b31ed6a7cbc4ee596934314ed20d1" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="9ee78cf3d57273036c545c44b6de821167a4f35f" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wigig-utils" path="qsdk/qca/feeds/wigig-utils-oss" revision="4bc6a4ca1529695f38e31bff86eea5d89ed1ba22" upstream="master"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-hostapd" path="qsdk/qca/feeds/wlan-hostapd" revision="f5d37f92802adc23a9b27672d6c7251ee047a2a2" upstream="whtp-dev"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-iw" path="qsdk/qca/feeds/wlan-iw" revision="575a4e92d29c1a9f13acd5217a33192c10ff5981" upstream="waiw-dev"/>
+  <project name="quic/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="241ebdcd46604ea5cf5d38ff32200de86255fa77" upstream="win_ap.1.0"/>
+  <project name="quic/qsdk/oss/system/openwrt" path="qsdk" revision="0c1aaf953da48ddf9983789b3e05c29bf148e1ab" upstream="cc/date"/>
+  <project name="quic/qsdk/oss/system/tools" path="qsdk/qca/src/qca-ramparser" revision="13aa167d0c514d571537d5470f7d1017c7ec6a10" upstream="ramparser_nhss"/>
+  <project name="quic/qsdk/oss/tools/meta" path="meta-scripts" revision="f551927158ab92fa419efc9da5e92b2ef11d825e" upstream="subtarget"/>
+  <project name="quic/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="master"/>
+  <project name="quic/qsdk/oss/wigig-utils" path="qsdk/qca/src/wigig-utils-oss" revision="0566ab7e95e66a31229bcdbbee13a6468fd32b0d" upstream="master"/>
+  <project name="quic/qsdk/oss/wireshark" path="qsdk/wireshark-2.4.2-11ax-patches" revision="a3ec81323da231f0a20b28cfe8e701f008f3c5e9" upstream="wireshark-caf"/>
+  <project name="quic/qsdk/oss/wireshark-github" path="qsdk/wireshark-github" revision="75f437707b30a83e298745571d9efbfce882808a" upstream="caf/wireshark-github/qcom/wireshark-2.4.2"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/data-kernel" path="qsdk/qca/src/data-kernel" revision="e66b5d28b64fe0d58448aa6b67278e6527889f6c" upstream="data-kernel.1.1_qsdk"/>
+  <project name="quic/qsdk/platform/vendor/qcom-opensource/dataservices" path="qsdk/qca/src/data-oss" revision="5a94b59c635dcf96075564531e5efee05565847c" upstream="NHSS.QSDK.9.0.2"/>
+  <project dest-branch="wlan-api.lnx.1.0" name="quic/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qsdk/qca/src/qca-wifi/cmn_dev/fw_hdr" revision="d2e646f4fad9edc59e70fecb06705341c438d07f" upstream="wlan-api.lnx.1.0"/>
+  <project dest-branch="wlan-cmn.driver.lnx.2.0" name="quic/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qsdk/qca/src/qca-wifi/cmn_dev" revision="9051d27a9cd06a93404d691b885dd1f827ecef8d" upstream="wlan-cmn.driver.lnx.2.0"/>
+  <project dest-branch="refs/heads/win_wlan_host.1.0" name="quic/qsdk/wifi/qca-wifi-oss" path="qsdk/qca/src/qca-wifi/component_dev" revision="718af1d652f8be5b362a2f4f1c88423c9ee547fb" upstream="refs/heads/win_wlan_host.1.0"/>
+</manifest>
