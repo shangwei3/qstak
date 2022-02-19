@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/atf-qsdk/arm-trusted-firmware" path="qsdk/qca/src/atf/arm-trusted-firmware" revision="df94bb83a352acf264fd0975a3675aad6abacbd1" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/ath11k-bdf" path="qsdk/qca/src/ath11k-bdf" revision="492a727a38baa153b0fe72fa14bcf8edb22c58ea" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/boot/bootdrv" path="qsdk/qca/src/qca-romboot" revision="d4657811a97c9ba89254c40c2f7676ff8023f29c" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/boot/lk-af" path="qsdk/qca/src/lk-af" revision="5c9e4e8572fd491f48cd2a7785ca967125ef051e" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/boot/u-boot-2016" path="qsdk/qca/src/u-boot-2016" revision="e80738ad41f08d983bfca1d3dbaf825ead8ff995" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/feeds/nss" path="qsdk/qca/feeds/nss" revision="332b3049766e7b8f11aba7e6ecc79cc5e63d71de" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-bridge" path="qsdk/qca/src/qca-hyfi-bridge" revision="6d06df0cf752512e0622120d9c3756765baa261d" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/hyfi/qca-hyfi-qdisc" path="qsdk/qca/src/qca-hyfi-qdisc" revision="846e528e85b46da233a03fc025a24783e2c5a18b" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/kernel/linux-ipq-5.4" path="qsdk/qca/src/linux-5.4" revision="a3e85b2f0ddbc732f93b9f0f015cfd484c75a287" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/emesh-sp" path="qsdk/qca/src/emesh-sp" revision="f8d9e6982feed660e91fe97a84380dfbed9b29f4" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="61d6e5a0be082f384bc1c3f7e320fa0dfe39607e" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="46820a75ffea1354a3cecacd89d0948f2ef4a892" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="2271a3a66f7e8284d42a9e787ddec6f24a1d2e15" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qsdk/qca/src/qca-nss-dp" revision="074865119eaa794094946c144ef8f87a3d164bd3" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-drv" path="qsdk/qca/src/qca-nss-drv" revision="7ca6be20069cc4df72cb295c0c20704988546dc9" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-eip" path="qsdk/qca/src/qca-nss-eip" revision="e3223c0342948c36ba8177d577d9905dcefefd79" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-gmac" path="qsdk/qca/src/qca-nss-gmac" revision="171767947467662f2407d0cfff26dfb136c3fb4a" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="922b5ba99dbcd20ed50b15777b9088ad5b687f9c" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qsdk/qca/src/qca-nss-ppe" revision="93cae5f392909de3b57e8705df61a80d2a7c1d1a" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/nss-speedtest" path="qsdk/qca/src/nss-speedtest" revision="7d34df850d7d660c0f63661d986812005677ea86" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-edma" path="qsdk/qca/src/qca-edma" revision="7e47c81b5b1678e921b7f52ddde96ec08ef5edad" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="31f5cd4b83da5a7c0fdca240b4e72677e4523b6e" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="bf8bfd0dda58189cec712d33cddde67afd11bc26" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-ovsmgr" path="qsdk/qca/src/qca-ovsmgr" revision="b72b8d07f9b21faed76d173379a4578c3b2df11a" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-psdk" path="qsdk/qca/src/qca-psdk" revision="402973acc8a17d9b685ed3c3490b7d6289f4798f" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-rfs" path="qsdk/qca/src/qca-rfs" revision="75197c386f477c7b3a6f02489d9903a9409fd5cc" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="43ed35c2d31b286857d11d0df419260020d2ff5a" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/qca-nss-sfe" revision="4adcfc9dba2cafa9d162965d2446559fa7333cd3" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/nss-userspace" path="qsdk/qca/src/nss-userspace-oss" revision="a47579b078f6d0be8be3f91f2b331256109e08d4" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/nss/ubi32-nssmconf" path="tools/ubi32-nssmconf" revision="8f1446150dbfaa687a6a1dd8bbdc87d2a61a82d0" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/qca-ieee19051-dissector" path="qsdk/qca/src/qca-ieee19051-dissector" revision="6428d26c9ff683456e8f717166fe327672898dd2" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="0604653c355c253d9f7602eadf63f5b6cef86529" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="9160cfe2eb9a94fb84d741f4f489625183bd0e1c" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="6b1ba5c780c6fde17b11cea64542ee60ab8e1763" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/data-oss" path="qsdk/qca/feeds/lte-data-oss" revision="65a9f9dc8520b240fb1e2ac393086a53d4b044a2" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" revision="51fe6bc81a331e7022144333aa33b06c0722f56b" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="d98bda7af719bbb5ee89f8659c835e419f2d3635" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="89f0556556d3e88b75d2fb7b92911f7c5c151671" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" revision="7c2a9f9d94fa8eba93cfc4a1714870c9afd4b570" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/platform/bootloader" path="qsdk/qca/feeds/bootloader" revision="476d7022348514b39340cd2490b808133755240c" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/platform/utils" path="qsdk/qca/feeds/platform_utils" revision="e0cd2d5a586cb9c47384f3e649c8ddb90b11006b" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="298c7044ba21c9d8d3b8bc6183e35305d57ad1dd" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/sigma-dut" path="qsdk/qca/feeds/sigma-dut-open" revision="5257ccdc9b1b3c3009a95d13e6f7a195ef01fbc5" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="009b1c75c7bc4574cfd34a6227d69da470734fc5" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/weave" path="qsdk/qca/feeds/weave" revision="9ee78cf3d57273036c545c44b6de821167a4f35f" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/wlan-hostapd" path="qsdk/qca/feeds/wlan-hostapd" revision="62b07d09c13c9b3edf183e40844a4c7b0373af84" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/wlan-iw" path="qsdk/qca/feeds/wlan-iw" revision="3b1b3b8c0b154f9b631d3e88d67692eb893086e4" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/wlan-open" path="qsdk/qca/feeds/wlan-open" revision="26cc1ebecd921253b262041fd235e0a06483ae9d" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/feeds/wlan/utils" path="qsdk/qca/feeds/wlan_utils" revision="20af714e32b3dc215ecab4a5ef33b45dfc1b6451" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/openwrt_repo" path="qsdk" revision="7da2c77f193f77fed6e8fd6975dcdb471da95051" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/openwrt-patches" path="qsdk/qsdk-package" revision="3a495c0a164536578571bf659eb3b874fd16c3b8" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/system/tools_repo" path="qsdk/qca/src/qca-ramparser" revision="66bbcaf1c317013810b74aaf5cde55615dd747ba" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/oss/wifi/qca-cnss" path="qsdk/qca/src/qca-cnss" revision="5e806db14c3e0ad4963103b7c65f8379cef7b272" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/data-kernel" path="qsdk/qca/src/data-kernel" revision="ec6c50266a3f43cc0192d5d2e758498ef2f907ac" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/dataservices" path="qsdk/qca/src/data-oss" revision="a37d7f6afcca508efc0cae871b36aa97895b1c67" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qsdk/qca/src/qca-wifi/cmn_dev/fw_hdr" revision="78f02040737e479895abfc03aa317250b00d4ab2" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qsdk/qca/src/qca-wifi/cmn_dev" revision="ff8a80e6cbf8259d64be8b522d8cd7e5a7011f63" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/platform/vendor/qcom/opensource/datarmnet" path="qsdk/qca/src/datarmnet" revision="63ebcad75b4c416fadd4134ca6bbb57aefbe45f2" upstream="NHSS.QSDK.12.0.r9"/>
+  <project name="clo/qsdk/wifi/qca-wifi-oss" path="qsdk/qca/src/qca-wifi/component_dev" revision="d3bf2b231be66d62bbaffc6c35cdfb29a25ed450" upstream="NHSS.QSDK.12.0.r9"/>
+</manifest>
