@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="NHSS.QSDK_TG.1.0"/>
+  <project name="clo/qsdk/oss/tools/meta" path="meta-scripts" revision="2913b9ae93d1baa3a1047bb607b6fe3fa7a46394" upstream="NHSS.QSDK_TG.1.0"/>
+  <project name="clo/qsdk/oss/tools/skales" path="skales" revision="0eb258783473b42e536bd02639ff24b10f0ebcc3" upstream="NHSS.QSDK_TG.1.0"/>
+  <project name="clo/qsdk/oss/wigig-utils" path="qsdk/qca/src/wigig-utils-oss" revision="98aaaaa6975e52ab053740c7e1c1172a1dcaa2f1" upstream="NHSS.QSDK_TG.1.0"/>
+</manifest>
