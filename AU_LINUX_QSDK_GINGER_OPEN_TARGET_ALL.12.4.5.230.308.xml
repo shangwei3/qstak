@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://git.codelinaro.org/clo/qsdk/" name="clo"/>
+  <remote fetch="https://git.codelinaro.org" name="clo" review="codelinaro.org"/>
+  <default remote="clo" revision="date_4.4"/>
+  <project name="clo/qsdk/oss/ath11k-bdf" path="qsdk/qca/src/ath11k-bdf" revision="9372f0a3be311bfaa11a214d039aa0fae5a74756" upstream="master"/>
+  <project dest-branch="refs/heads/win.coretech.3.0" name="clo/qsdk/oss/boot/u-boot" path="qsdk/qca/src/u-boot" revision="bdbc4c84211b83e0aff4943d7456b8bb198e66ff" upstream="refs/heads/win.coretech.3.0"/>
+  <project dest-branch="refs/heads/win.coretech.3.0" name="clo/qsdk/oss/boot/u-boot-2016" path="qsdk/qca/src/u-boot-2016" revision="e42b0b340e5c0ff45d93de5770628f6e6c49dfdf" upstream="refs/heads/win.coretech.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/kernel/linux-ipq-6.1" path="qsdk/qca/src/linux-6.1" revision="2d831bf2df9aa636cfdfb0449f4b526c2495a369" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/kernel/linux-ipq-files" path="qsdk/target/linux/feeds/files-6.1" revision="bff8ce0c1888e039049fbdec57f64840f01f0241" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/kernel/linux-ipq-patches-6.1" path="qsdk/target/linux/feeds/patches-6.1" revision="1a4522abfd6e4413fc810c22d557550a450e958a" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project name="clo/qsdk/oss/lklm/emesh-sp" path="qsdk/qca/src/emesh-sp" revision="5a306633cff961493deee084e11c071071940db1" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-cfi" path="qsdk/qca/src/qca-nss-cfi" revision="5cd07ce299ee3ce62dbe4f6783ad36361e57583b" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-clients" path="qsdk/qca/src/qca-nss-clients" revision="1babe67509fd9b516e1c4a37c22eb206aae78a1f" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-crypto" path="qsdk/qca/src/qca-nss-crypto" revision="3c5a574ce99d7f0b9f892002020f1bf9bfc57a81" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-dp" path="qsdk/qca/src/qca-nss-dp" revision="dfeb7d33ca22216a8172d5dd966e4c0db7715b69" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-eip" path="qsdk/qca/src/qca-nss-eip" revision="796db55a6e1ab944152f987e7c9ae52d2b2192c3" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-macsec" path="qsdk/qca/src/qca-nss-macsec" revision="b94e22d8b05dc7b78bdafade1e313ca0bb44c596" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-nsm" path="qsdk/qca/src/qca-nss-nsm" revision="9c0a5878b8ff1a2306c3b85ee292a6864cd478bc" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-ppe" path="qsdk/qca/src/qca-nss-ppe" revision="6970ce5b4fe42d1b2f8ac0b3b42f7c0a80aadabd" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/nss-speedtest" path="qsdk/qca/src/nss-speedtest" revision="84adf0baabdaa1b832e507236a90282d8646e1e2" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-mcs" path="qsdk/qca/src/qca-mcs" revision="02207cdd83fb5f97a8842954d8134b739564fc01" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-nss-ecm" path="qsdk/qca/src/qca-nss-ecm" revision="77d70c9da436b370c585af918e7f6a726898f854" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-ovsmgr" path="qsdk/qca/src/qca-ovsmgr" revision="6c1fafc4fbdc28474d2199fa2bef6e10c89d2118" upstream="nss"/>
+  <project name="clo/qsdk/oss/lklm/qca-psdk" path="qsdk/qca/src/qca-psdk" revision="402973acc8a17d9b685ed3c3490b7d6289f4798f" upstream="master"/>
+  <project name="clo/qsdk/oss/lklm/qca-ssdk" path="qsdk/qca/src/qca-ssdk" revision="03e96ab8506e1356dece5f76671afe8bae62c688" upstream="SSDK_3.0"/>
+  <project name="clo/qsdk/oss/lklm/shortcut-fe" path="qsdk/qca/src/qca-nss-sfe" revision="436dd2de0fdf83dc9a2239a7c5bb072f9ae5e8f2" upstream="nss"/>
+  <project name="clo/qsdk/oss/nss-userspace" path="qsdk/qca/src/nss-userspace-oss" revision="fcfdf4c940f30f8429f0e6aa9abe166f2f588af5" upstream="nss"/>
+  <project name="clo/qsdk/oss/qca-lacpd" path="qsdk/qca/src/qca-lacpd" revision="69b9574a457cdeeadee7c081c3ce053a7c898d6a" upstream="nss"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/releases/configs/qsdk" path="qsdk/qca/configs/qsdk" revision="9711c2efe084c46f5d999b3f166456249c864c88" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project name="clo/qsdk/oss/ssdk-shell" path="qsdk/qca/src/qca-ssdk-shell" revision="2797c5001fdd17b87a162973fa0dc447d20bb8ec" upstream="SSDK_3.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/oss/system/feeds/control-app" path="qsdk/qca/feeds/control-app-open" revision="1e1bdd1c9ada525739ee706495dde8c39aa9c795" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+  <project name="clo/qsdk/oss/system/feeds/luci" path="qsdk/qca/feeds/luci" remote="clo" revision="27793bd1a147cbc573dcc1829b762a47928499bc" upstream="github-openwrt/openwrt-23.05"/>
+  <project name="clo/qsdk/oss/system/feeds/networking" path="qsdk/qca/feeds/networking" revision="bbfd1f1d22aea367c66a0fcc1eb0713f6920060e" upstream="nss"/>
+  <project name="clo/qsdk/oss/system/feeds/nss-host" path="qsdk/qca/feeds/nss-host" revision="6eeabc2fbcc12295175db82754f0a9599e902a3c" upstream="nss"/>
+  <project name="clo/qsdk/oss/system/feeds/packages" path="qsdk/qca/feeds/packages" remote="clo" revision="f8918644cfdf5d875cddd70b3429c63f8fd60daf" upstream="github-openwrt/openwrt-23.05"/>
+  <project dest-branch="refs/heads/win.coretech.3.0" name="clo/qsdk/oss/system/feeds/platform/bootloader" path="qsdk/qca/feeds/bootloader" revision="d9f479dd66c2033b6a4de7af7b7a1a4f42d6f87d" upstream="refs/heads/win.coretech.3.0"/>
+  <project dest-branch="refs/heads/win.coretech.3.0" name="clo/qsdk/oss/system/feeds/platform/utils" path="qsdk/qca/feeds/platform_utils" revision="6b135f1ed304a45e88c7ecdb93bdbb555ca05bc2" upstream="refs/heads/win.coretech.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/system/feeds/routing" path="qsdk/qca/feeds/routing" revision="719bbde470c3fa77e4a6993f3f928d8c2c2656c7" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/oss/system/feeds/sigma-dut" path="qsdk/qca/feeds/sigma-dut-open" revision="30dfd4a433cf25bcb8f87e07bb821250f2d06fb5" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+  <project name="clo/qsdk/oss/system/feeds/ssdk" path="qsdk/qca/feeds/ssdk" revision="4d9d0ab5157331286ea9cea60f4a4be8492afb5c" upstream="SSDK_3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/system/feeds/target/ipq" path="qsdk/target/linux/feeds" revision="2cc343b3add05c5379c29c23a88654daaa69fb61" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/oss/system/feeds/wlan-hostapd" path="qsdk/openwrt-patches/package/network/services/hostapd" revision="66b116465628ba6eecfb66af822acb29962c054e" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/oss/system/feeds/wlan-iw" path="qsdk/openwrt-patches/package/network/utils/iw" revision="6111d3c7fff28f020ea3f4c9d5d09404362fa10f" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/oss/system/feeds/wlan-open" path="qsdk/openwrt-patches/package/kernel/mac80211" revision="dca2a93dfe83601d8d7f5f5e7ec5861abc4d96e3" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+  <project name="clo/qsdk/oss/system/feeds/wlan/utils" path="qsdk/qca/feeds/wlan_utils" revision="1cea58ffcd2194512142873b841657287ed5cb8a" upstream="win_wlan_host.1.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/system/openwrt_repo" path="qsdk" revision="04a1dd118b4ee0c010a297d794968f97cf193f2f" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/system/openwrt-patches" path="qsdk/openwrt-patches" revision="581ee80af5c78ce3ffcbc385f845a491cc30ba49" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project dest-branch="refs/heads/win.linuxopenwrt.3.0" name="clo/qsdk/oss/system/openwrt-patches-23.05" path="openwrt-patches-23.05" revision="34ad2085796b3fd22cf494399e0088876790c35c" upstream="refs/heads/win.linuxopenwrt.3.0"/>
+  <project name="clo/qsdk/oss/system/openwrt/ipq-scripts" path="qsdk/ipq-scripts" revision="02a1438445349f1c352e8a4e33f87e332b5ca0e9" upstream="ginger"/>
+  <project name="clo/qsdk/oss/upstream-boardfile" path="qsdk/qca/src/upstream-boardfile" revision="f8bf0a940eb6d28ddc7c1c8e5ce5b51e7737ea20" upstream="master"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/fw-api" path="qsdk/qca/src/qca-wifi/cmn_dev/fw_hdr" revision="020857f9da95b4128acf565d7e7390674a7606e0" upstream="wlan-api.lnx.1.0"/>
+  <project name="clo/qsdk/platform/vendor/qcom-opensource/wlan/qca-wifi-host-cmn" path="qsdk/qca/src/qca-wifi/cmn_dev" revision="171069e6162c170ef9691ff58db0741a16954d99" upstream="wlan-cmn.driver.lnx.2.0"/>
+  <project name="clo/qsdk/wifi/qca-telemetry-agent-oss" path="qsdk/qca/src/qca-wifi/telemetry_agent" revision="79ef5b1e5a5b3e037bcabf60deddfa00256636ec" upstream="win_wlan_host.1.0"/>
+  <project dest-branch="refs/heads/win.wlan_host_opensource.2.0" name="clo/qsdk/wifi/qca-wifi-oss" path="qsdk/qca/src/qca-wifi/component_dev" revision="aec60b73683a8dc44b325bd32909278664660a40" upstream="refs/heads/win.wlan_host_opensource.2.0"/>
+</manifest>
